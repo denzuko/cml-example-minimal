@@ -1,5 +1,5 @@
 name: CML
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   train-and-report:
     runs-on: ubuntu-latest
